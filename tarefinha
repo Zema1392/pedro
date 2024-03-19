@@ -10,7 +10,7 @@ bool primo(int numero) {
     
     for (int i = 2; i * i <= numero; i++) {
         if (numero % i == 0)
-            return false; // Se for divisível por algum número, não é primo
+            return false; 
     }
     return true; // Se não for divisível por nenhum número, é primo
 }
